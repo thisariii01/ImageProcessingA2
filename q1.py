@@ -9,7 +9,7 @@ im_gray = cv.cvtColor(im, cv.COLOR_BGR2GRAY)
 sigma_values = np.arange(1, 10, 0.5)
 
 # Threshold for blob detection
-threshold = 0.305  
+threshold = 0.31
 
 circles = []
 
