@@ -79,7 +79,7 @@ ax5.imshow(cv.cvtColor(img5, cv.COLOR_BGR2RGB))
 ax5.set_title('Graffiti Image 5')
 plt.show()'''
 
-'''fig2 = plt.figure(figsize=(8, 16))
+fig2 = plt.figure(figsize=(8, 16))
 ax1 = fig2.add_subplot(421) 
 ax1.imshow(cv.cvtColor(SIFT_match1, cv.COLOR_BGR2RGB))
 ax1.set_title('SIFT Feature Matching with img1.ppm and img2.ppm')
@@ -104,9 +104,9 @@ ax7.set_title('SIFT Feature Matching with stitched image3 and img5.ppm')
 ax8 = fig2.add_subplot(428)
 ax8.imshow(cv.cvtColor(stitched_img4, cv.COLOR_BGR2RGB))
 ax8.set_title('Stitched Image with stitched image3 and img5.ppm')
-plt.show()'''
+plt.show()
 
-cv.imshow('Stitched Image', stitched_img4)
+'''cv.imshow('Stitched Image', stitched_img4)
 cv.waitKey(0)
-cv.destroyAllWindows()
+cv.destroyAllWindows()'''
 print('Homography Matrix 1:\n', best_homography4)
